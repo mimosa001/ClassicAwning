@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/*common element*/
+input{
+	height:48px;
+	border:1px solid #f1f3f5;
+}
+
+button{
+	height:48px;
+}
+
+.section-top-bg{
+	background-image:url("/img/awning/awning.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	width:100%;
+	height:300px;
+	background-size:cover;
+}

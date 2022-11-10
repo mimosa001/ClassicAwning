@@ -10,5 +10,10 @@ public class UserController {
 	public String main() {
 		return "main";
 	}
+	
+	@GetMapping("/mypage/myEstimateList")
+	public String estimateList() {
+		return "/mypage/myEstimateList";
+	}
 
 }
