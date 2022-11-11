@@ -2,6 +2,14 @@
 
 /*common element*/
 
+/* google api */
 .mapApi{
 	margin-top: 20px;
+	margin-bottom: 200px;
+}
+
+
+/* map */
+.container.map{
+	margin-top: 100px;
 }
