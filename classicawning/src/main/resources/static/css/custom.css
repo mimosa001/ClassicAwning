@@ -18,3 +18,18 @@ button{
 	height:300px;
 	background-size:cover;
 }
+
+
+
+
+
+
+
+
+
+
+/* 1대1 문의 */
+
+.inquitry-top-bg{
+	background-image:url("/img/inquiry/inquiry.png");
+}
