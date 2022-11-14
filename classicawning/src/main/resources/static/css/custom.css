@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /*common element*/
-input{
+input, select, textarea{
 	height:48px;
 	border:1px solid #f1f3f5;
 }
@@ -17,4 +17,23 @@ button{
 	width:100%;
 	height:300px;
 	background-size:cover;
+}
+
+.flex-ui {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.flex-ui span{
+	display:inline-block;
+	margin-left:12px;
+	margin-right:12px;
+}
+
+
+/* 1대1 문의 */
+
+.inquitry-top-bg{
+	background-image:url("/img/inquiry/inquiry.png");
 }

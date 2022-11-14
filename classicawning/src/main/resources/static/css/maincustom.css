@@ -2,6 +2,54 @@
 
 /*common element*/
 
+/* google api */
 .mapApi{
 	margin-top: 20px;
+	margin-bottom: 200px;
+}
+
+
+/* map */
+.container.map{
+	margin-top: 100px;
+}
+
+/* footer */
+/* #footer{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: 1000;
+}
+
+body{
+	padding-bottom: 173px;
+}
+ */
+
+/* colorPalette */
+.colorPa{
+	width : 150px;
+	height: 150px;
+	
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	border: none;
+}
+
+.color-list{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-bottom: 100px;
+}
+
+.color-list p{
+	margin-top: 20px;
+	font-size: 15px;
+}
+
+.about .colorAll{
+	margin-top: 100px;
 }
