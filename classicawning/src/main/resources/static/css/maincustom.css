@@ -31,7 +31,6 @@ body{
 .colorPa{
 	width : 150px;
 	height: 150px;
-	
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size:cover;
@@ -53,3 +52,36 @@ body{
 .about .colorAll{
 	margin-top: 100px;
 }
+
+
+
+/* insertInquiry */
+.inquiry-list{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-bottom: 100px;
+}
+
+
+.container .inquiryAll{
+	margin-top: 100px;
+}
+
+
+.text-center{
+	margin-bottom: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
