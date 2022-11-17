@@ -290,5 +290,80 @@
 		    });
 		}
 		</script>
+	</th:block><th:block layout:fragment="customContents">
+		<section class="section-top-bg"></section>
+		<section>
+			<div class="container">
+				<div class="row"><!-- 이름 상호명 이메일 주소 핸드폰번호 -->
+					<div class="col-lg-6 offset-lg-3">
+						<h1>견적 신청 하기 </h1>
+						<div class="mt-5">
+							<label for="basic-url">이름</label>
+							<div class="input-group mt-1 mb-4">
+								<input type="text" class="form-control" placeholder="이름"
+									aria-describedby="basic-addon3">
+							</div>
+						</div>
+						
+						<div class="mt-1">
+							<label for="basic-url">상호명</label>
+							<div class="input-group mt-1 mb-4">
+								<input type="text" class="form-control" placeholder="상호명"
+									aria-describedby="basic-addon3">
+							</div>
+						</div>
+						
+						<div class="mt-1">
+							<label for="basic-url">이메일</label>
+							<div class="input-group mt-1 mb-4">
+								<input type="text" class="form-control" placeholder="이메일"
+									aria-describedby="basic-addon3">
+							</div>
+						</div>
+						
+						<div class="mt-1">
+							<label for="basic-url">주소</label>
+							<div class="input-group mt-1 mb-4">
+								<input type="text" id="address_kakao" name="address" class="form-control" placeholder="주소"
+									aria-describedby="basic-addon3">
+								
+							</div>
+						</div>
+						<div class="mt-1">
+							<label for="basic-url">상세 주소</label>
+							<div class="input-group mt-1 mb-4">
+								<input type="text" class="form-control" name="address_detail" />
+							</div>
+						</div>
+						
+						<div class="mt-1">
+							<label for="basic-url">핸드폰번호</label>
+							<div class="input-group mt-1 mb-4">
+								<input type="text" class="form-control" placeholder="'-' 없이 0109244804"
+									aria-describedby="basic-addon3">
+							</div>
+						</div>
+						
+						<button type="button" class="btn btn-primary w-100">견적 신청하기</button>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+		<script>
+		window.onload = function(){
+		    document.getElementById("address_kakao").addEventListener("click", function(){ //주소입력칸을 클릭하면
+		        //카카오 지도 발생
+		        new daum.Postcode({
+		            oncomplete: function(data) { //선택시 입력값 세팅
+		                document.getElementById("address_kakao").value = data.address; // 주소 넣기
+		                document.querySelector("input[name=address_detail]").focus(); //상세입력 포커싱
+		            }
+		        }).open();
+		    });
+		}
+		</script>
 	</th:block>
 </html>
