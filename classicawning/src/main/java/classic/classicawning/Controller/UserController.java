@@ -8,9 +8,5 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class UserController {
 	
-	@GetMapping("/mypage/myEstimateList")
-	public String estimateList() {
-		return "/mypage/myEstimateList";
-	}
 
 }

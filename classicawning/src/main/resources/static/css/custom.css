@@ -17,6 +17,14 @@ button{
 	width:100%;
 	height:300px;
 	background-size:cover;
+	position:relative;
+}
+
+.section-top-bg h2{
+	position:absolute;
+	top :50%;
+	left:50%;
+	transform:translate(-50%, -50%);
 }
 
 .flex-ui {
@@ -36,4 +44,28 @@ button{
 
 .inquitry-top-bg{
 	background-image:url("/img/inquiry/inquiry.png");
+}
+
+.insert-estimate .colorPa{
+	width:100%;
+	padding-top:100%;
+	height:auto;
+}
+
+.colorPa.clicked{
+	border:1px solid red;
+}
+
+.insert-estimate .colorPa{
+	position:relative;
+}
+
+.checked-color{
+	width:24px;
+	height:24px;
+	display:none;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
 }
