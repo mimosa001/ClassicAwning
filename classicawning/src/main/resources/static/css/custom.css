@@ -10,6 +10,11 @@ button{
 	height:48px;
 }
 
+label{
+	font-weight:bold;
+	font-size:12px;
+}
+
 .section-top-bg{
 	background-image:url("/img/awning/awning.png");
 	background-position:center;
@@ -46,11 +51,10 @@ button{
 	background-image:url("/img/inquiry/inquiry.png");
 }
 
-<<<<<<< HEAD
 .li dropdown{
 	content: "";
 }
-=======
+
 .insert-estimate .colorPa{
 	width:100%;
 	padding-top:100%;
@@ -80,4 +84,11 @@ button{
 	width:300px;
 }
 
->>>>>>> refs/heads/khj
+button.btn-primary:hover, button.btn-primary:focus, button.btn-primary:active{
+	background-color:#ffffff;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+	background-color:#ffffff !important;
+}
+
