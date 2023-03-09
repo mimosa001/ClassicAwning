@@ -13,7 +13,7 @@ public class MemberController {
 		return "/member/login";
 	}
 	
-	@GetMapping("/insertMember")
+	@GetMapping("/join")
 	public String insertMember() {
 		return "/member/insertMember";
 	}
