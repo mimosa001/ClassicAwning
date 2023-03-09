@@ -37,6 +37,7 @@ body{
 	border: none;
 }
 
+
 .color-list{
 	display:flex;
 	flex-direction:column;
@@ -44,10 +45,12 @@ body{
 	margin-bottom: 100px;
 }
 
+
 .color-list p{
 	margin-top: 20px;
 	font-size: 15px;
 }
+
 
 .about .colorAll{
 	margin-top: 100px;
@@ -74,34 +77,66 @@ body{
 	text-align: center;
 }
 
+
 .login_sm_text{
 	font-size:14px;
 	margin: 30px;
 	text-align: center;
 }
 
+
 .login_sm_text a{
 	color: #888888;
 }
 
-/* button */
 
+/* button */
 button.btn-primary{
 	background-color: #DF6B26;
+	border: none
 }
+
 
 button.btn-primary:hover{
 	background-color: #B5551D;
 }
+
 
 .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
 	background-color: #B5551D !important;
 }
 
 
+button.kakaobtn{
+	background-color: #FEE500; 
+	border: none;
+	border-radius:8px;
+}
 
 
+button.kakaobtn:hover{
+	background-color: #E9D308; 
+}
 
 
+.btn-check:checked+.btn.kakaobtn, .btn.kakaobtn.active, .btn.kakaobtn.show, .btn.kakaobtn:first-child:active, :not(.btn-check)+.btn.kakaobtn:active{
+	background-color: #FAE64D !important;
+}
+
+
+/* loginFooter */
+.loginFooter{
+	padding:20px;
+	font-size: 13px;
+	text-align:center;
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+}
+
+.loginFooter img{
+	width: 100px;
+}
 
 
