@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org"
-!-- 사용자 정의 타이틀 설정 -->
+	  xmlns:layout="http://ultraq.net.nz/thymeleaf/layout"
+	  layout:decorate="~{layout/default}">
+	<!-- 사용자 정의 타이틀 설정 -->
 	<th:block layout:fragment="customTitle">
 		<title>${title}</title>
 	</th:block>
