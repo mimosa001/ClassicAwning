@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{layout/default}">
+	
+	<!-- 사용자 정의 타이틀 설정 -->
+	<th:block layout:fragment="customTitle">
+		 <title th:text="${title}"></title>
+	</th:block>
+	
+	
+	<th:block layout:fragment="customContents">
+
+		<section id="portfolio" class="portfolio">
+			<div class="container">
+		
+				<div class="row">
+					<div class="col-lg-12 d-flex justify-content-center">
+						<ul id="portfolio-flters" style="margin-top: 25px;">
+							<li data-filter="*" class="filter-active">전체</li>
+							<li data-filter=".filter-fold">접이식 어닝</li>
+							<li data-filter=".filter-fix">고정식 어닝</li>
+							<li data-filter=".filter-polyGlass">폴리 글라스</li>
+							<li data-filter=".filter-sign">간판 어닝</li>
+						</ul>
+					</div>
+				</div>
+	
+				<div class="row portfolio-container">
+					<!-- 접이식 어닝 시작 -->
+					<div class="col-lg-4 col-md-6 portfolio-item filter-fold">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/Cawning-2.jpg" class="img-fluid"
+								alt="">
+							<div class="portfolio-info">
+								<h4>접이식 어닝 1</h4>
+								<p>접이식 어닝</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/Cawning-2.jpg"
+										data-gallery="portfolioGallery"
+										class="glightbox"
+										title="접이식 어닝 1">
+										<i class="bx bx-plus"></i>
+									</a> 
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+										<i class="bx bx-link"></i>
+									</a>
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->	
+					<div class="col-lg-4 col-md-6 portfolio-item filter-fold">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/Cawning-4.jpg" class="img-fluid"
+								alt="">
+							<div class="portfolio-info">
+								<h4>접이식 어닝 2</h4>
+								<p>접이식 어닝</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/Cawning-4.jpg"
+										data-gallery="portfolioGallery" 
+										class="glightbox"
+										title="접이식 어닝 2">
+										<i class="bx bx-plus"></i>
+									</a> 
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+								    	<i class="bx bx-link"></i>
+									</a>
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->
+					<div class="col-lg-4 col-md-6 portfolio-item filter-fold">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/Cawning-6.jpg" class="img-fluid"
+								alt="">
+							<div class="portfolio-info">
+								<h4>접이식 어닝 3</h4>
+								<p>접이식 어닝</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/Cawning-6.jpg"
+										data-gallery="portfolioGallery" 
+										class="glightbox"
+										title="접이식 어닝 3">
+										<i class="bx bx-plus"></i>
+									</a>
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+								    	<i class="bx bx-link"></i>
+									</a>									 									
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->							
+					<!-- 접이식 어닝 끝 -->
+					
+					<!-- 고정식 어닝 시작 -->
+					<div class="col-lg-4 col-md-6 portfolio-item filter-fix">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/Cawning-1.jpg" class="img-fluid" alt="">
+							<div class="portfolio-info">
+								<h4>고정식 어닝 1</h4>
+								<p>고정식 어닝</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/Cawning-1.jpg"
+										data-gallery="portfolioGallery" 
+										class="glightbox"
+										title="고정식 어닝 1">
+										<i class="bx bx-plus"></i>
+									</a>
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+								    	<i class="bx bx-link"></i>
+									</a>									 									
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->
+							
+					<div class="col-lg-4 col-md-6 portfolio-item filter-fix">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/Cawning-3.jpg" class="img-fluid"
+								alt="">
+							<div class="portfolio-info">
+								<h4>고정식 어닝 2</h4>
+								<p>고정식 어닝</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/Cawning-3.jpg"
+										data-gallery="portfolioGallery" 
+										class="glightbox"
+										title="고정식 어닝 2">
+										<i class="bx bx-plus"></i>
+									</a>
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+								    	<i class="bx bx-link"></i>
+									</a>									 									
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->
+					<div class="col-lg-4 col-md-6 portfolio-item filter-fix">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/Cawning-5.jpg" class="img-fluid"
+								alt="">
+							<div class="portfolio-info">
+								<h4>고정식 어닝 3</h4>
+								<p>고정식 어닝</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/Cawning-5.jpg"
+										data-gallery="portfolioGallery" 
+										class="glightbox"
+										title="고정식 어닝 3">
+										<i class="bx bx-plus"></i>
+									</a>
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+								    	<i class="bx bx-link"></i>
+									</a>									 									
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->			
+					<div class="col-lg-4 col-md-6 portfolio-item filter-fix">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/Cawning-9.jpg" class="img-fluid"
+								alt="">
+							<div class="portfolio-info">
+								<h4>고정식 어닝 4</h4>
+								<p>고정식 어닝</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/Cawning-9.jpg"
+										data-gallery="portfolioGallery" 
+										class="glightbox"
+										title="고정식 어닝 4">
+										<i class="bx bx-plus"></i>
+									</a>
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+								    	<i class="bx bx-link"></i>
+									</a>									 									
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->		
+					<div class="col-lg-4 col-md-6 portfolio-item filter-fix">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/Cawning-8.jpg" class="img-fluid"
+								alt="">
+							<div class="portfolio-info">
+								<h4>고정식 어닝 5</h4>
+								<p>고정식 어닝</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/Cawning-8.jpg"
+										data-gallery="portfolioGallery" 
+										class="glightbox"
+										title="고정식 어닝 5">
+										<i class="bx bx-plus"></i>
+									</a>
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+								    	<i class="bx bx-link"></i>
+									</a>									 									
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->											
+					<!-- 고정식 어닝 끝 -->				
+					
+					<!-- 폴리 글라스 시작 -->
+					<div class="col-lg-4 col-md-6 portfolio-item filter-polyGlass">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/pollyGlassAwning1.jpg" class="img-fluid"
+								alt="">
+							<div class="portfolio-info">
+								<h4>폴리 글라스 1</h4>
+								<p>폴리 글라스</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/pollyGlassAwning1.jpg"
+										data-gallery="portfolioGallery" 
+										class="glightbox"
+										title="폴리 글라스 1">
+										<i class="bx bx-plus"></i>
+									</a>
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+								    	<i class="bx bx-link"></i>
+									</a>									 									
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->					
+					<!-- 폴리 글라스 끝 -->
+					
+					<!-- 간판 어닝 시작 -->
+					<div class="col-lg-4 col-md-6 portfolio-item filter-sign">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/signAwning1.jpg" class="img-sign"
+								alt="">
+							<div class="portfolio-info">
+								<h4>간판 어닝 1</h4>
+								<p>간판 어닝</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/signAwning1.jpg"
+										data-gallery="portfolioGallery" 
+										data-glightbox="title:간판 어닝 1; description: .custom-desc1; descPosition: right;"
+										class="glightbox">
+										<i class="bx bx-plus"></i>
+									</a>
+                                    <div class="glightbox-desc custom-desc1">
+                                        <p>
+                                            You can set the position of the description in different ways for example
+                                            <strong style="text-decoration: underline">top, bottom, left or right</strong>
+                                        </p>
+                                        <p>
+                                            <a href="http://google.com" target="_blank" style="text-decoration: underline; font-weight: bold">Example Google link</a>
+                                            ipsum vehicula eros ultrices lacinia Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Duis quis ipsum vehicula eros ultrices lacinia.
+                                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                                        </p>
+                                        <p>
+                                            Primis pharetra facilisis lorem quis penatibus ad nulla inceptos, dui per tempor taciti aliquet consequat sodales, curae tristique gravida auctor interdum malesuada sagittis.
+                                            Felis pretium eros ligula natoque ad ante rutrum himenaeos, adipiscing urna mauris porta quam efficitur odio, sagittis morbi tellus nisi molestie mus faucibus.
+                                        </p>
+                                        <p>
+                                            Primis pharetra facilisis lorem quis penatibus ad nulla inceptos, dui per tempor taciti aliquet consequat sodales, curae tristique gravida auctor interdum malesuada sagittis.
+                                            Felis pretium eros ligula natoque ad ante rutrum himenaeos, adipiscing urna mauris porta quam efficitur odio, sagittis morbi tellus nisi molestie mus faucibus.
+                                        </p>
+                                    </div>									
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+								    	<i class="bx bx-link"></i>
+									</a>									 									
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->							
+					<!-- 간판 어닝 끝 -->
+					
+				</div> <!-- <div class="row portfolio-container"> -->
+			</div> <!-- <div class="container"> -->
+		</section>
+		<!-- End Portfolio Section -->
+	</th:block>
+	
+	<th:block layout:fragment="customFootJs">
+		<script type="text/javascript">
+        	var lightbox = GLightbox();
+            lightbox.on('open', (target) => {
+                console.log('lightbox opened');
+            });
+            var lightboxDescription = GLightbox({
+                selector: '.glightbox2'
+            });
+            var lightboxVideo = GLightbox({
+                selector: '.glightbox3'
+            });
+            lightboxVideo.on('slide_changed', ({ prev, current }) => {
+                console.log('Prev slide', prev);
+                console.log('Current slide', current);
+
+                const { slideIndex, slideNode, slideConfig, player } = current;
+
+                if (player) {
+                    if (!player.ready) {
+                        // If player is not ready
+                        player.on('ready', (event) => {
+                            // Do something when video is ready
+                        });
+                    }
+
+                    player.on('play', (event) => {
+                        console.log('Started play');
+                    });
+
+                    player.on('volumechange', (event) => {
+                        console.log('Volume change');
+                    });
+
+                    player.on('ended', (event) => {
+                        console.log('Video ended');
+                    });
+                }
+            });
+
+            var lightboxInlineIframe = GLightbox({
+                selector: '.glightbox4'
+            });
+
+            /* var exampleApi = GLightbox({ selector: null });
+            exampleApi.insertSlide({
+                href: 'https://picsum.photos/1200/800',
+            });
+            exampleApi.insertSlide({
+                width: '500px',
+                content: '<p>Example</p>'
+            });
+            exampleApi.insertSlide({
+                href: 'https://www.youtube.com/watch?v=WzqrwPhXmew',
+            });
+            exampleApi.insertSlide({
+                width: '200vw',
+                content: document.getElementById('inline-example')
+            });
+            exampleApi.open(); */
+		</script>
+	</th:block>
+	
+</html>
