@@ -22,5 +22,4 @@ public class MemberController {
 	public String deleteMember() {
 		return "/member/deleteMember";
 	}
-
 }
