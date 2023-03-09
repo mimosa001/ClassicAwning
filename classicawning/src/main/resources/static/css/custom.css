@@ -37,3 +37,7 @@ button{
 .inquitry-top-bg{
 	background-image:url("/img/inquiry/inquiry.png");
 }
+
+.li dropdown{
+	content: "";
+}
