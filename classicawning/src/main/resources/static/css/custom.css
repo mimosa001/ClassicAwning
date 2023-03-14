@@ -15,6 +15,15 @@ label{
 	font-size:12px;
 }
 
+.two-ui{
+	display:flex;
+	justify-content:space-between;
+}
+
+.two-ui input{
+	width:75%;
+}
+
 .three-ui{
 	display:flex;
 	align-items:center;
