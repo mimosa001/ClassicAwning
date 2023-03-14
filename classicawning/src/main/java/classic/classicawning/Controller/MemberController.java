@@ -22,4 +22,18 @@ public class MemberController {
 	public String deleteMember() {
 		return "/member/deleteMember";
 	}
+	
+	//아이디찾기
+	@GetMapping("/findId")
+	public String findId() {
+		return "/member/findId";
+	}
+	
+	//비밀번호찾기
+	@GetMapping("/findPassword")
+	public String findPassword() {
+		return "/member/findPassword";
+	}
+	
+	
 }
