@@ -35,7 +35,12 @@
 	
 	<!-- 사용자 정의 JS 하단 -->
 	<th:block layout:fragment="customFootJs">
-	
+	<script>
+	let height = screen.height;
+	console.log(height);
+	let body = document.querySelector("body");
+	console.log(body);
+	</script>
 	</th:block>
 </body>
 </html>
