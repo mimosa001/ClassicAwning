@@ -109,10 +109,11 @@ label{
 	width:300px;
 }
 
-button.btn-primary:hover, button.btn-primary:focus, button.btn-primary:active{
+/* button.btn-primary:hover, button.btn-primary:focus, button.btn-primary:active{
 	background-color:#ffffff;
 }
-
+ */
+ 
 .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
 	background-color:#ffffff !important;
 }
@@ -125,6 +126,12 @@ select{
   background-size: 0.65rem auto;
 }
 
+.fixed_bottom{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+}
 
 /* 아이디 찾기 */
 button.btn1-primary{
