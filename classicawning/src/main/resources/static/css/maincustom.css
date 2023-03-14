@@ -140,3 +140,9 @@ button.kakaobtn:hover{
 }
 
 
+
+/* main 페이지 */
+.section-bg, .services .icon-box{
+	background-color: #ffffff !important;
+}
+
