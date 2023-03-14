@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class MypageController {
 	//견적신청하기
-	@GetMapping("/insertEstimate")
+	@GetMapping("/estimate/insertEstimate")
 	public String insertEstimate() {
 		return "/estimate/insertEstimate";
 	}
