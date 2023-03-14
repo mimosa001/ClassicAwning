@@ -71,7 +71,6 @@ label{
 
 
 /* 1대1 문의 */
-
 .inquitry-top-bg{
 	background-image:url("/img/inquiry/inquiry.png");
 }
@@ -104,7 +103,8 @@ label{
 	transform:translate(-50%, -50%);
 }
 
-/*회원가입페이지 */
+
+/* 회원가입페이지 */
 .join-logo{
 	width:300px;
 }
@@ -124,5 +124,72 @@ select{
   background-position: right 0.7rem top 50%;
   background-size: 0.65rem auto;
 }
+
+
+/* 아이디 찾기 */
+button.btn1-primary{
+	background-color: #ffffff !important;
+	border: 2px solid #DF6B26;
+	border-radius: 5px;
+}
+
+button.btn1-primary:hover, button.btn1-primary:focus, button.btn1-primary:active{
+	background-color:#9d571d29 !important;
+}
+
+
+.FindId{
+	text-align: center;
+	font-size: 25px;
+}
+
+
+/* 비밀번호 찾기 */
+.FindPw{
+	text-align: center;
+	font-size: 25px;
+}
+
+.fid{
+	color: #969696;
+}
+
+.fid1{
+	color: #212529 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

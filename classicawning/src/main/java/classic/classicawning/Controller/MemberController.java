@@ -34,6 +34,4 @@ public class MemberController {
 	public String findPassword() {
 		return "/member/findPassword";
 	}
-	
-	
 }
