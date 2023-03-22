@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{layout/login_default}">
+	
+	<th:block layout:fragment="customContents">
+		<section>
+			<div class="container">
+			<div class="logo-login">
+				<a href="http://localhost/"><img src="/img/logo/classicawning_logo.png"></a>
+			</div>
+				<div class="row"><!-- 이름 상호명 이메일 주소 핸드폰번호 -->
+					<div class="col-lg-6 offset-lg-3">
+						<div class="mt-5">
+							<div class="input-group mt-1 mb-4">
+								<input type="text" class="form-control" placeholder="아이디" aria-describedby="basic-addon3">
+							</div>
+						</div>
+						
+						<div class="mt-1">
+							<div class="input-group mt-1 mb-4">
+								<input type="text" class="form-control" placeholder="비밀번호" aria-describedby="basic-addon3">
+							</div>
+						</div>
+						<button type="button" class="btn btn-primary w-100">로그인</button>
+					
+						<div class="login_sm_text">
+							<a href="/member/findId">아이디 찾기 |</a>
+							<a href="/member/findPassword">비밀번호 찾기</a>
+							<a href="/member/join"> | 회원가입</a>
+						</div>
+									
+					
+						<div class="mt-5">
+							<a href="javascript:kakaoLogin();">
+								<button class="kakaobtn w-100">카카오계정 로그인</button>
+							</a> 
+						    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+						    <script>window.Kakao.init('defa12a76fd65f0affa25f9b99ed3df0');
+						
+						        function kakaoLogin() {
+						            window.Kakao.Auth.login({
+						                scope: 'profile_nickname, profile_image, account_email, gender, age_range, birthday', //동의항목 페이지에 있는 개인정보 보호 테이블의 활성화된 ID값을 넣습니다.
+						                success: function(response) {
+						                    console.log(response) // 로그인 성공하면 받아오는 데이터
+						                    window.Kakao.API.request({ // 사용자 정보 가져오기 
+						                        url: '/v2/user/me',
+						                        success: (res) => {
+						                            const kakao_account = res.kakao_account;
+						                            console.log(kakao_account)
+						                        }
+						                    });
+						                    // window.location.href='/ex/kakao_login.html' //리다이렉트 되는 코드
+						                },
+						                fail: function(error) {
+						                    console.log(error);
+						                }
+						            });
+						        }
+						    </script>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</th:block>
+	
+	
+	
+</html>

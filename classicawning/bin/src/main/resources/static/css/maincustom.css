@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+/*common element*/
+
+/* google api */
+.mapApi{
+	margin-top: 20px;
+	margin-bottom: 200px;
+}
+
+
+/* map */
+.container.map{
+	margin-top: 100px;
+}
+
+/* footer */
+/* #footer{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: 1000;
+}
+
+body{
+	padding-bottom: 173px;
+}
+ */
+
+/* colorPalette */
+.colorPa{
+	width : 150px;
+	height: 150px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	border: none;
+}
+
+
+.color-list{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-bottom: 100px;
+}
+
+
+.color-list p{
+	margin-top: 20px;
+	font-size: 15px;
+}
+
+
+.about .colorAll{
+	margin-top: 100px;
+}
+
+
+
+/* insertInquiry */
+.inquiry-list{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-bottom: 100px;
+}
+
+
+.container .inquiryAll{
+	margin-top: 100px;
+}
+
+
+/* login */
+.logo-login{
+	text-align: center;
+}
+
+
+.login_sm_text{
+	font-size:14px;
+	margin: 30px;
+	text-align: center;
+}
+
+
+.login_sm_text a{
+	color: #888888;
+}
+
+
+/* button */
+button.btn-primary{
+	background-color: #DF6B26;
+	border: none
+}
+
+
+button.btn-primary:hover{
+	background-color: #B5551D;
+}
+
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+	background-color: #B5551D !important;
+}
+
+
+button.kakaobtn{
+	background-color: #FEE500; 
+	border: none;
+	border-radius:8px;
+}
+
+
+button.kakaobtn:hover{
+	background-color: #E9D308; 
+}
+
+
+.btn-check:checked+.btn.kakaobtn, .btn.kakaobtn.active, .btn.kakaobtn.show, .btn.kakaobtn:first-child:active, :not(.btn-check)+.btn.kakaobtn:active{
+	background-color: #FAE64D !important;
+}
+
+
+/* loginFooter */
+.loginFooter{
+	padding:20px;
+	font-size: 13px;
+	text-align:center;
+	bottom:0;
+	left:0;
+	width:100%;
+}
+
+.loginFooter img{
+	width: 100px;
+}
+
+
+
+/* main 페이지 */
+.section-bg, .services .icon-box{
+	background-color: #ffffff !important;
+}
+

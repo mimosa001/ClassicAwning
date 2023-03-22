@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	  xmlns:layout="http://ultraq.net.nz/thymeleaf/layout">
+<head th:replace="fragments/head :: headFragment">
+</head>
+<body>
+	<div id="wrapper">
+		<!-- start header -->
+		<!-- end header -->
+		
+		<!-- start aside -->
+		<div th:replace="fragments/asideMenu :: asideFragment">
+		
+		</div>
+		<!-- end aside -->
+		
+		<!-- start contents -->
+		<div id="rightcolumn" style="overflow:scroll;">
+			<!-- 사용자 정의 contents -->
+			<th:block layout:fragment="customContents">
+			
+			</th:block>
+		</div>
+		<!-- end contents -->
+		
+		<!-- start footer -->		
+		<div th:replace="fragments/login_footer :: login_footerFragment">
+		
+		</div>
+		<!-- end footer -->
+	</div>
+	
+	<!-- 사용자 정의 JS 하단 -->
+	<th:block layout:fragment="customFootJs">
+		<script>
+		let height = screen.height;
+		let bodyHeight = document.querySelector("body").scrollHeight;
+		let loginFooter = document.querySelector(".loginFooter");
+		
+		if(height>bodyHeight){
+			loginFooter.classList.add('fixed_bottom');
+		}
+		</script>
+	</th:block>
+</body>
+</html>

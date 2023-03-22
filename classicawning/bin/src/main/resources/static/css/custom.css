@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+/*common element*/
+input, select, textarea{
+	height:48px;
+	border:1px solid #f1f3f5;
+}
+
+button{
+	height:48px;
+}
+
+label{
+	font-weight:bold;
+	font-size:12px;
+}
+
+.two-ui{
+	display:flex;
+	justify-content:space-between;
+}
+
+.two-ui input{
+	width:75%;
+}
+
+.three-ui{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	border-radius:10px;
+}
+
+.three-ui input{
+	width:32%;
+	margin-top:0 !important;
+}
+
+.three-ui select{
+	width:32%;	
+}
+
+.section-top-bg{
+	background-image:url("/img/awning/awning.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	width:100%;
+	height:300px;
+	background-size:cover;
+	position:relative;
+}
+
+.section-top-bg h2{
+	position:absolute;
+	top :50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+
+.flex-ui {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.flex-ui span{
+	display:inline-block;
+	margin-left:12px;
+	margin-right:12px;
+}
+
+
+/* 1대1 문의 */
+.inquitry-top-bg{
+	background-image:url("/img/inquiry/inquiry.png");
+}
+
+.li dropdown{
+	content: "";
+}
+
+.insert-estimate .colorPa{
+	width:100%;
+	padding-top:100%;
+	height:auto;
+}
+
+.colorPa.clicked{
+	border:1px solid red;
+}
+
+.insert-estimate .colorPa{
+	position:relative;
+}
+
+.checked-color{
+	width:24px;
+	height:24px;
+	display:none;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+
+
+/* 회원가입페이지 */
+.join-logo{
+	width:300px;
+}
+
+/* button.btn-primary:hover, button.btn-primary:focus, button.btn-primary:active{
+	background-color:#ffffff;
+}
+ */
+ 
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+	background-color:#ffffff !important;
+}
+
+select{
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23131313%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.7rem top 50%;
+  background-size: 0.65rem auto;
+}
+
+.fixed_bottom{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+}
+
+/* 아이디 찾기 */
+button.btn1-primary{
+	background-color: #ffffff !important;
+	border: 2px solid #DF6B26;
+	border-radius: 5px;
+}
+
+button.btn1-primary:hover, button.btn1-primary:focus, button.btn1-primary:active{
+	background-color:#9d571d29 !important;
+}
+
+
+.FindId{
+	text-align: center;
+	font-size: 25px;
+}
+
+
+/* 비밀번호 찾기 */
+.FindPw{
+	text-align: center;
+	font-size: 25px;
+}
+
+.fid{
+	color: #969696;
+}
+
+.fid1{
+	color: #212529 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
