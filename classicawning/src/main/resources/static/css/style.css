@@ -467,7 +467,7 @@ h6 {
 
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: #d9232d;
+  background: #DF6B26;
 }
 
 #hero .btn-get-started {
@@ -483,11 +483,11 @@ h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  background: #d9232d;
+  background: #DF6B26;
 }
 
 #hero .btn-get-started:hover {
-  background: #df3740;
+  background: #DF6B26;
 }
 
 @media (max-width: 992px) {
@@ -760,7 +760,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #f8a06c;
+  background: #DF6B26;
 }
 
 .portfolio #portfolio-flters li:last-child {
