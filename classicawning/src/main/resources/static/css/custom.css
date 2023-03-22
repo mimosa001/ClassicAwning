@@ -165,7 +165,16 @@ button.btn1-primary:hover, button.btn1-primary:focus, button.btn1-primary:active
 	color: #212529 !important;
 }
 
+/*flex*/
+.flex{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
 
+.two-input input{
+	width:48%;
+}
 
 
 
