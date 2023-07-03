@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("colorPalette")
 public class ColorPaletteController {
 
+	//원단 색상표
 	@GetMapping("/colorPalette")
 	public String main(Model model) {
 		model.addAttribute("title", "원단 색상표");
