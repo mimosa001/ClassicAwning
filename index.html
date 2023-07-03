@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{layout/default}">
+
+	<th:block layout:fragment="customContents">
+		<!-- ======= Hero Section ======= -->
+	<section id="hero">
+		<div id="heroCarousel" data-bs-interval="5000"
+			class="carousel slide carousel-fade" data-bs-ride="carousel">
+	
+			<ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+	
+			<div class="carousel-inner" role="listbox">
+	
+				<!-- Slide 1 -->
+	<div class="carousel-item active"
+		style="background-image: url(/img/slide/awning1.jpg)">
+		<div class="carousel-container">
+			<div class="container">
+				<h2 class="animate__animated animate__fadeInDown">
+					<span>어닝은 클래식하게</span>
+				</h2>
+				<p class="animate__animated animate__fadeInUp">전원주택(창문) 상가에 어닝을 설치함으로써 비가림막, 해가림막, <br>
+															   공간을 확보 활용 가능하며 밑밑한 건물에 어닝 포인트 하나로 인테리어 효과 뿐만<br> 
+															   아니라 저렴한 가격으로 다양한 , 모양, 인쇄 가능하며 건물의 외관 디자인을 살릴 
+															   수 있는 간판식 어닝으로도 가능합니다.</p><br/>
+				
+				<p class="animate__animated animate__fadeInUp">주문제작전문업체 상담문의 010-9866-7804</p>
+				
+				<a href="#about"
+					class="btn-get-started animate__animated animate__fadeInUp scrollto">더 보기</a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Slide 2 -->
+	<div class="carousel-item"
+		style="background-image: url(/img/slide/slide-2.jpg)">
+		<div class="carousel-container">
+			<div class="container">
+				<h2 class="animate__animated animate__fadeInDown">Lorem
+					Ipsum Dolor</h2>
+				<p class="animate__animated animate__fadeInUp">Ut velit est
+					quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat
+					sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.
+					Similique ea voluptatem. Esse doloremque accusamus repellendus
+					deleniti vel. Minus et tempore modi architecto.</p>
+				<a href="#about"
+					class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
+					More</a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Slide 3 -->
+	<div class="carousel-item"
+		style="background-image: url(/img/slide/slide-3.jpg)">
+					<div class="carousel-container">
+						<div class="container">
+							<h2 class="animate__animated animate__fadeInDown">Sequi ea
+								ut et est quaerat</h2>
+							<p class="animate__animated animate__fadeInUp">Ut velit est
+								quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat
+								sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.
+								Similique ea voluptatem. Esse doloremque accusamus repellendus
+								deleniti vel. Minus et tempore modi architecto.</p>
+							<a href="#about"
+								class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
+								More</a>
+						</div>
+					</div>
+				</div>
+	
+			</div>
+	
+			<a class="carousel-control-prev" href="#heroCarousel" role="button"
+				data-bs-slide="prev"> <span
+				class="carousel-control-prev-icon bi bi-chevron-left"
+				aria-hidden="true"></span>
+			</a> <a class="carousel-control-next" href="#heroCarousel" role="button"
+				data-bs-slide="next"> <span
+				class="carousel-control-next-icon bi bi-chevron-right"
+				aria-hidden="true"></span>
+			</a>
+	
+		</div>
+	</section>
+	<!-- End Hero -->
+	
+	<!-- ======= About Section ======= -->
+	<section id="about" class="about">
+		<div class="container">
+	
+			<div class="row content">
+				<div class="col-lg-6">
+					<h2>어닝원단에 대하여</h2>
+					<h3></h3>
+				</div>
+				<div class="col-lg-6 pt-4 pt-lg-0">
+					<ul>
+						<li><i class="ri-check-double-line"></i> 사용소재 : 100% 폴리에스터</li>
+						<li><i class="ri-check-double-line"></i> 초발수 가공처리품</li>
+						<li><i class="ri-check-double-line"></i> 방수 강화 제품</li>
+						<li><i class="ri-check-double-line"></i> UV차단 처리 제품</li>
+						<li><i class="ri-check-double-line"></i> 방염가공 제품</li>
+						<li><i class="ri-check-double-line"></i> 백화현상 방지 제품</li>
+						<li><i class="ri-check-double-line"></i> 고속 건조 제품</li>
+					</ul>
+					<p class="fst-italic"></p>
+				</div>
+			</div>
+	
+		</div>
+	</section>
+	<!-- End About Section -->
+	
+	
+	<!-- ======= Clients Section ======= -->
+	<section id="clients" class="clients section-bg">
+		<div class="container">
+	
+			<div class="row">
+	
+				<div
+					class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+					<img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+				</div>
+	
+				<div
+					class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+					<img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+				</div>
+	
+				<div
+					class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+					<img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+				</div>
+	
+				<div
+					class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+					<img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+				</div>
+	
+				<div
+					class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+					<img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+				</div>
+	
+				<div
+					class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+					<img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+				</div>
+	
+			</div>
+	
+		</div>
+	</section>
+	<!-- End Clients Section -->
+	
+	
+
+	
+	<!-- ======= Portfolio Section ======= -->
+	<section id="portfolio" class="portfolio">
+		<div class="container">
+	
+			<div class="row">
+				<div class="col-lg-12 d-flex justify-content-center">
+					<ul id="portfolio-flters">
+						<li data-filter="*" class="filter-active">전체</li>
+						<li data-filter=".filter-fold">접이식 어닝</li>
+						<li data-filter=".filter-fix">고정식 어닝</li>
+						<li data-filter=".filter-polyGlass">폴리 글라스</li>
+						<li data-filter=".filter-sign">간판 어닝</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row portfolio-container">
+
+				<div class="col-lg-4 col-md-6 portfolio-item filter-fold">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/Cawning-2.jpg" class="img-fluid"
+								alt="">
+							<div class="portfolio-info">
+								<h4>접이식 어닝 1</h4>
+								<p>접이식 어닝</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/Cawning-2.jpg"
+										data-gallery="portfolioGallery"
+										class="glightbox"
+										title="접이식 어닝 1">
+										<i class="bx bx-plus"></i>
+									</a> 
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+										<i class="bx bx-link"></i>
+									</a>
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->	
+					<div class="col-lg-4 col-md-6 portfolio-item filter-fold">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/Cawning-4.jpg" class="img-fluid"
+								alt="">
+							<div class="portfolio-info">
+								<h4>접이식 어닝 2</h4>
+								<p>접이식 어닝</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/Cawning-4.jpg"
+										data-gallery="portfolioGallery" 
+										class="glightbox"
+										title="접이식 어닝 2">
+										<i class="bx bx-plus"></i>
+									</a> 
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+								    	<i class="bx bx-link"></i>
+									</a>
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->
+					<div class="col-lg-4 col-md-6 portfolio-item filter-fold">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/Cawning-6.jpg" class="img-fluid"
+								alt="">
+							<div class="portfolio-info">
+								<h4>접이식 어닝 3</h4>
+								<p>접이식 어닝</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/Cawning-6.jpg"
+										data-gallery="portfolioGallery" 
+										class="glightbox"
+										title="접이식 어닝 3">
+										<i class="bx bx-plus"></i>
+									</a>
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+								    	<i class="bx bx-link"></i>
+									</a>									 									
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->							
+					<!-- 접이식 어닝 끝 -->
+					
+					<!-- 고정식 어닝 시작 -->
+					<div class="col-lg-4 col-md-6 portfolio-item filter-fix">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/Cawning-1.jpg" class="img-fluid" alt="">
+							<div class="portfolio-info">
+								<h4>고정식 어닝 1</h4>
+								<p>고정식 어닝</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/Cawning-1.jpg"
+										data-gallery="portfolioGallery" 
+										class="glightbox"
+										title="고정식 어닝 1">
+										<i class="bx bx-plus"></i>
+									</a>
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+								    	<i class="bx bx-link"></i>
+									</a>									 									
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->
+							
+					<div class="col-lg-4 col-md-6 portfolio-item filter-fix">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/Cawning-3.jpg" class="img-fluid"
+								alt="">
+							<div class="portfolio-info">
+								<h4>고정식 어닝 2</h4>
+								<p>고정식 어닝</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/Cawning-3.jpg"
+										data-gallery="portfolioGallery" 
+										class="glightbox"
+										title="고정식 어닝 2">
+										<i class="bx bx-plus"></i>
+									</a>
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+								    	<i class="bx bx-link"></i>
+									</a>									 									
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->
+					<div class="col-lg-4 col-md-6 portfolio-item filter-fix">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/Cawning-5.jpg" class="img-fluid"
+								alt="">
+							<div class="portfolio-info">
+								<h4>고정식 어닝 3</h4>
+								<p>고정식 어닝</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/Cawning-5.jpg"
+										data-gallery="portfolioGallery" 
+										class="glightbox"
+										title="고정식 어닝 3">
+										<i class="bx bx-plus"></i>
+									</a>
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+								    	<i class="bx bx-link"></i>
+									</a>									 									
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->			
+					<div class="col-lg-4 col-md-6 portfolio-item filter-fix">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/Cawning-9.jpg" class="img-fluid"
+								alt="">
+							<div class="portfolio-info">
+								<h4>고정식 어닝 4</h4>
+								<p>고정식 어닝</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/Cawning-9.jpg"
+										data-gallery="portfolioGallery" 
+										class="glightbox"
+										title="고정식 어닝 4">
+										<i class="bx bx-plus"></i>
+									</a>
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+								    	<i class="bx bx-link"></i>
+									</a>									 									
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->		
+					<div class="col-lg-4 col-md-6 portfolio-item filter-fix">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/Cawning-8.jpg" class="img-fluid"
+								alt="">
+							<div class="portfolio-info">
+								<h4>고정식 어닝 5</h4>
+								<p>고정식 어닝</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/Cawning-8.jpg"
+										data-gallery="portfolioGallery" 
+										class="glightbox"
+										title="고정식 어닝 5">
+										<i class="bx bx-plus"></i>
+									</a>
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+								    	<i class="bx bx-link"></i>
+									</a>									 									
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->											
+					<!-- 고정식 어닝 끝 -->				
+					
+					<!-- 폴리 글라스 시작 -->
+					<div class="col-lg-4 col-md-6 portfolio-item filter-polyGlass">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/pollyGlassAwning1.jpg" class="img-fluid"
+								alt="">
+							<div class="portfolio-info">
+								<h4>폴리 글라스 1</h4>
+								<p>폴리 글라스</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/pollyGlassAwning1.jpg"
+										data-gallery="portfolioGallery" 
+										class="glightbox"
+										title="폴리 글라스 1">
+										<i class="bx bx-plus"></i>
+									</a>
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+								    	<i class="bx bx-link"></i>
+									</a>									 									
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->					
+					<!-- 폴리 글라스 끝 -->
+					
+					<!-- 간판 어닝 시작 -->
+					<div class="col-lg-4 col-md-6 portfolio-item filter-sign">
+						<div class="portfolio-wrap">
+							<img src="/img/portfolio/signAwning1.jpg" class="img-sign"
+								alt="">
+							<div class="portfolio-info">
+								<h4>간판 어닝 1</h4>
+								<p>간판 어닝</p>
+								<div class="portfolio-links">
+									<a  href="/img/portfolio/signAwning1.jpg"
+										data-gallery="portfolioGallery" 
+										data-glightbox="title:간판 어닝 1; description: .custom-desc1; descPosition: right;"
+										class="glightbox">
+										<i class="bx bx-plus"></i>
+									</a>
+                                    <div class="glightbox-desc custom-desc1">
+                                        <p>
+                                            You can set the position of the description in different ways for example
+                                            <strong style="text-decoration: underline">top, bottom, left or right</strong>
+                                        </p>
+                                        <p>
+                                            <a href="http://google.com" target="_blank" style="text-decoration: underline; font-weight: bold">Example Google link</a>
+                                            ipsum vehicula eros ultrices lacinia Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Duis quis ipsum vehicula eros ultrices lacinia.
+                                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                                        </p>
+                                        <p>
+                                            Primis pharetra facilisis lorem quis penatibus ad nulla inceptos, dui per tempor taciti aliquet consequat sodales, curae tristique gravida auctor interdum malesuada sagittis.
+                                            Felis pretium eros ligula natoque ad ante rutrum himenaeos, adipiscing urna mauris porta quam efficitur odio, sagittis morbi tellus nisi molestie mus faucibus.
+                                        </p>
+                                        <p>
+                                            Primis pharetra facilisis lorem quis penatibus ad nulla inceptos, dui per tempor taciti aliquet consequat sodales, curae tristique gravida auctor interdum malesuada sagittis.
+                                            Felis pretium eros ligula natoque ad ante rutrum himenaeos, adipiscing urna mauris porta quam efficitur odio, sagittis morbi tellus nisi molestie mus faucibus.
+                                        </p>
+                                    </div>									
+									<a  href="portfolio-details.html"
+									    class="glightbox"
+									    data-glightbox="type: external" title="시공 사례">
+								    	<i class="bx bx-link"></i>
+									</a>									 									
+								</div>
+							</div> <!-- <div class="portfolio-info"> -->	 														
+						</div> <!-- <div class="portfolio-wrap"> -->
+					</div> <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-fix"> -->							
+					<!-- 간판 어닝 끝 -->
+					
+				</div> <!-- <div class="row portfolio-container"> -->
+			</div> <!-- <div class="container"> -->
+		</section>
+	<!-- End Portfolio Section -->
+	
+	
+	<!-- api googls map -->
+	<div class="container map">
+		<h2>찾아 오시는 길</h2>
+		<iframe class="mapApi" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3954.3005515889463!2d126.99123061509518!3d35.86625836397377!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb5ca0c4c46f892f5!2z7YG0656Y7Iud7Ja064ud!5e0!3m2!1sko!2skr!4v1668044293126!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</th:block>
+</html>
