@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class PortfolioController {
 	
-	// 사용자 시공 목록 화면
+	//시공
 	@GetMapping("/portfolioList")
 	public String getPortfolioList(Model model) {
 		
